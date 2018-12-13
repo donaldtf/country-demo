@@ -1,0 +1,16 @@
+.item {
+  height: 32px;
+  cursor: pointer;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-left: 16px;
+}
+
+.item:hover {
+  background-color: #ccc;
+}
+
+.selected {
+  background-color: #ebf4fe;
+}
